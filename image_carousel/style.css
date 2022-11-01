@@ -1,0 +1,25 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: block;
+    width: 20vw;
+    height: 30vh;
+}
+.image-container{
+    display: inline-flex;
+    height: fit-content;
+    position: absolute;
+    transition:left 1s ease-in-out;
+}
+.carousel{
+    width: 20vw;
+    height: 30vh;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 5px 5px 15px black;
+}

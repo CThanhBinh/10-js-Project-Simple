@@ -1,0 +1,53 @@
+body {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.toggleDisplay{
+    transform: translateX(100%) !important;
+}
+#btn {
+    width: 2.5em;
+    position: absolute;
+    right: 7em;
+    top: 1em;
+    cursor: pointer;
+    background-color: #7b2cbf;
+    border-radius: 4px 0 0 4px;
+    transition: right 0.5s ;
+}
+.btnRight {
+    right: 3em !important;
+    border-radius: 4px !important;
+}
+
+#btn div {
+    width: 1.5em;
+    height: 0.25em;
+    background-color: black;
+    margin: 0.3em auto;
+}
+
+#toggleSideBar {
+    background-color: #7b2cbf;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 7em;
+    height: 100%;
+    text-align: center;
+    transform: translateX(0%);
+    transition: transform 0.4s;
+}
+#toggleSideBar div{
+    margin-top: 13px;
+}
+#toggleSideBar div:first-child{
+    margin-top: 35px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    font-size: large;
+}

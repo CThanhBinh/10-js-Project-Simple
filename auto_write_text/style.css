@@ -1,0 +1,13 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    background-color: rebeccapurple;
+    display: flex;
+}
+div {
+    height: 10%;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    font-size:x-large;
+}

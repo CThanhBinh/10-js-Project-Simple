@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+div {
+    padding: 30px;
+    margin-top: 15px;
+    display: none;
+}
+div, button{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+

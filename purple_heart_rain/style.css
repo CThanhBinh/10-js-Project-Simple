@@ -1,0 +1,25 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.heart {
+    height:min-content;
+    color: purple;
+    position: absolute;
+    top: -20px;
+}
+
+.heartRain {
+    animation: 6s linear 0.5s 1 normal rainAct;
+}
+@keyframes rainAct {
+    from {
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(100vh);
+    }
+}

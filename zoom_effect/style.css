@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: unset;
+}
+#container{
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    overflow: hidden;
+    box-shadow: 2px 3px 5px #000;
+}
+img{
+    transform-origin: top left;
+    position: relative;
+    width: calc(100vw/3);
+    height: calc(100vw/3);
+    transition: transform 0.2s;
+}
+

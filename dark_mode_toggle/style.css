@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    transition: background-color 1s, color 1s 0.2s;
+}
+#toggleMode{
+    width: 2em;
+    height: 2em;
+    background-color: #212529;
+    border-radius: 1em;
+    cursor: pointer;
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+    transition: background-color 0.5s;
+}
+.colorBody{
+    background-color: #212529;
+    color:#f8f9fa
+}
+.colorBtn{
+    background-color:#f8f9fa !important;
+}
+#text{
+    text-align: center;
+    margin: auto;
+}
+h2{
+    margin-bottom: 2em;
+}
